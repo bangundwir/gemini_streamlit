@@ -15,7 +15,7 @@ st.write("Welcome to the Gemini Pro Dashboard. You can proceed by providing your
 #     st.info("Enter the Google API Key to continue")
 #     st.stop()
 
-genai.configure(api_key=os.environ["google_api_key")
+genai.configure(api_key=os.environ["google_api_key"])
 
 st.title("Gemini Pro with Streamlit Dashboard")
 
