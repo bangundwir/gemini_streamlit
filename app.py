@@ -1,5 +1,4 @@
 import streamlit as st
-import os
 from PIL import Image
 import google.generativeai as genai
 
@@ -8,7 +7,7 @@ st.set_page_config(page_title="Gemini Pro with Streamlit",page_icon="♊")
 st.write("Welcome to the Gemini Pro Dashboard. You can proceed by providing your Google API Key")
 
 with st.expander("Provide Your Google API Key"):
-     # google_api_key = st.text_input("Google API Key", key="google_api_key", type="password")
+     google_api_key = st.text_input("Google API Key", key="google_api_key", type="password")
      
 if not google_api_key:
     st.info("Enter the Google API Key to continue")
