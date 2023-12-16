@@ -1,0 +1,3 @@
+IPython
+streamlit
+google.generativeai
